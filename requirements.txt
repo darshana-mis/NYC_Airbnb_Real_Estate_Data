@@ -1,0 +1,17 @@
+
+---
+
+## 📌 Dataset Source
+
+- [Kaggle - New York City Airbnb Open Data 2024](https://www.kaggle.com/datasets/vrindakallu/new-york-dataset)
+
+---
+
+## 🚀 Project Outcome
+
+- Created a scalable PySpark-based ETL pipeline on Windows.
+- Performed full exploratory data analysis using SparkSQL.
+- Delivered business-ready insights for rental pricing trends.
+- Built interactive Power BI dashboards for real estate investors.
+
+---
