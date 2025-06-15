@@ -56,5 +56,3 @@ This project demonstrates a complete end-to-end real estate data pipeline and an
 
 ---
 
-## 📂 Project Structure
-
