@@ -1,58 +1,46 @@
-# Airbnb NYC Real Estate Data Pipeline & Analysis
-
-## 📊 Project Overview
-
-This project demonstrates a complete end-to-end real estate data pipeline and analysis using PySpark, SparkSQL, and Power BI. The dataset is sourced from Airbnb NYC listings (2024), and covers data engineering, data cleaning, transformations, and market analysis for rental pricing trends.
+# 🏠 Airbnb NYC Real Estate Market Analysis (2024)
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🔎 Project Overview
 
-- Python
-- PySpark (SparkSQL)
-- JupyterNotebook
-- Hadoop (winutils for Windows Spark support)
-- Power BI (for final visualization)
+This end-to-end data pipeline and dashboard analyzes Airbnb rental listings in NYC using PySpark, SparkSQL, and Power BI. The project showcases data engineering, transformation, and visualization for real estate investors, pricing analysts, and business decision-makers.
 
 ---
 
-## 🔄 ETL Pipeline Steps
+## ✨ Key Insights
 
-1️⃣ **Ingestion**  
-- Load raw Airbnb CSV data.
-
-2️⃣ **Data Cleaning**  
-- Clean price columns (remove "$" and ",").
-- Convert date columns to proper formats.
-- Handle null values.
-
-3️⃣ **Data Transformation**  
-- Add derived fields like `price_per_night`.
-- Prepare dataset for analysis.
-
-4️⃣ **Storage**  
-- Save processed data into optimized Parquet format.
+- Entire home listings dominate Manhattan, while private rooms are more common in Queens & Brooklyn.
+- Luxury rentals with higher prices cluster around Manhattan & Brooklyn waterfront neighborhoods.
+- Most listings are priced between $100 - $200 per night.
+- Significant variance in pricing across boroughs highlights diverse rental markets.
+- Data-driven visualization provides quick snapshot for potential investment opportunities.
 
 ---
 
-## 🔎 Exploratory Data Analysis
+## 📊 Dashboard Preview
 
-- Total Listings
-- Average Pricing
-- Listings by Room Type
-- Price Buckets Distribution
-- Top Neighborhoods by Pricing
-- Review vs Price Correlation
+![dashboard](https://github.com/user-attachments/assets/fc218df6-9051-485f-9753-995af4b132b7)
+
 
 ---
 
-## 📈 Dashboard Design (Power BI)
+## ⚙️ Tools Used
 
-- Price Heatmap by Neighborhood
-- Price Distribution by Room Type
-- Top Expensive Neighborhoods
-- Reviews vs Pricing Scatterplot
-- Overall Rental Market Trends
+- Python (PySpark, SparkSQL)
+- JupyterLab
+- Hadoop (winutils for Windows)
+- Power BI (Dashboard Visualization)
+- Git & GitHub
 
 ---
 
+## 🛠️ ETL Pipeline
+
+- Load raw Airbnb CSV (50K+ listings)
+- Clean & transform pricing, date, and location fields
+- Handle nulls and data quality issues
+- Convert processed dataset to Parquet format for optimized storage
+- SparkSQL queries to derive key insights
+
+---
